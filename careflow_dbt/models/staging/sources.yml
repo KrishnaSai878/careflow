@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: hospital_data
+    database: careflow-project-2026
+    schema: hospital_data
+    tables:
+      - name: patient_events_raw
+        description: "Raw, unprocessed hospital patient event log loaded from the simulator CSV."
+        columns:
+          - name: Case_ID
+            description: "Unique identifier for a patient visit/case."
+          - name: Activity_Name
+            description: "The event/activity that occurred (e.g. Triage, X-Ray, Discharge)."
+          - name: Timestamp
+            description: "When the activity occurred."

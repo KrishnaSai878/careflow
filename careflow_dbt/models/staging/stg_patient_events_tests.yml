@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_patient_events
+    description: "Cleaned, standardized hospital patient event log. One row per event, ready for process mining."
+    columns:
+      - name: case_id
+        description: "Unique patient case identifier."
+        tests:
+          - not_null
+
+      - name: activity_name
+        description: "The event/activity name."
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - 'Registration'
+                - 'Triage'
+                - 'Blood Draw'
+                - 'X-Ray'
+                - 'Doctor Consultation'
+                - 'Discharge'
+
+      - name: event_timestamp
+        description: "Timestamp the event occurred."
+        tests:
+          - not_null

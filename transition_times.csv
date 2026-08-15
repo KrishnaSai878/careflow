@@ -1,0 +1,11 @@
+from_activity,to_activity,avg_duration_minutes,count
+Registration,Triage,5.027,1000
+Doctor Consultation,Discharge,17.563,1000
+Triage,Blood Draw,10.084558823529411,544
+Triage,Doctor Consultation,9.630606860158311,379
+Blood Draw,Doctor Consultation,12.987138263665594,311
+X-Ray,Doctor Consultation,20.45806451612903,310
+Triage,X-Ray,9.866666666666667,255
+Blood Draw,X-Ray,12.888412017167383,233
+X-Ray,Triage,20.786516853932586,178
+Doctor Consultation,Doctor Consultation,17.04794520547945,146
