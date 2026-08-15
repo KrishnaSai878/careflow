@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CareFlow — Clinical Pathway Process Mining
 
 CareFlow analyzes raw, timestamped hospital event logs to automatically discover the real
@@ -100,3 +101,6 @@ accessible for a portfolio project. Generating synthetic data with a known, inje
 bottleneck pattern also makes it possible to verify the pipeline actually works —
 the process mining stage should (and does) rediscover the same pattern that was
 deliberately built into the simulator.
+=======
+# careflow
+>>>>>>> 43f46d34921f5e7b1bee5f7ea7a2b32f137ebd65
